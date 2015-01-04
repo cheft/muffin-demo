@@ -1,19 +1,12 @@
-## muffin & 插件安装
+## muffin 安装
 
 npm install -g fis-muffin
 
-npm install -g fis-postpackager-autoload
 
-npm install -g fis-postpackager-simple
+## 第三方 module 安装
 
-npm install -g fis-parser-sass
-
-npm install -g browserify
-
-npm install -g watchify
-
+cd muffin-demo
 npm install
-...
 
 ## 编译 & 运行
 
