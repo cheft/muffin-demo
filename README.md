@@ -8,17 +8,14 @@ npm install -g fis-postpackager-simple
 
 npm install -g fis-parser-sass
 
-npm install -g fis-parser-coffee-react
-
 npm install -g browserify
 
 npm install -g watchify
 
-npm install -g jest-cli
-
+npm install
 ...
 
-## 编译 & 测试
-mfn && npm test
+## 编译 & 运行
 
+mfn && mfn start
 
