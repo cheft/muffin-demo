@@ -1,3 +1,7 @@
+###
+@require todo/todo.css
+###
+
 React = require 'react'
 TodoList = require './list'
 
@@ -20,7 +24,7 @@ Todo = React.createClass
             <TodoList items={@state.items} />
             <form onSubmit={@handleSubmit}>
                 <input className='form-group form-control' onChange={@onChange} value={@state.text} />
-                <button className='btn btn-success'> 添加 <i className='glyphicon glyphicon-plus' /> {(@state.items.length + 1)}</button>
+                <button className='btn btn-success'><i className='glyphicon glyphicon-plus' /> 添加（ {@state.items.length} ）</button>
             </form>
         </div>
 
