@@ -1,15 +1,17 @@
-## muffin 安装
+## 安装 muffin
 
-npm install -g fis-muffin
+`npm install -g fis-muffin`
 
+## 下载 demo
 
-## 第三方 module 安装
+`git clone https://github.com/cheft/muffin-demo.git`
 
-cd muffin-demo
+## 进入当前目录
 
-npm install
+执行 npm install 安装第三方库
 
-## 编译 & 运行
+执行 mfn 发布代码
 
-mfn && mfn start
+执行 mfn start 自动打开浏览器预览页面
 
+![](assets/chrome.jpg)
